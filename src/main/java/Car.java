@@ -6,6 +6,7 @@ public class Car {
     public Car(String make, String model){
         this.make = make;
         this.model = model;
+        //
     }
     public Car(String make){
         this.make = make;
