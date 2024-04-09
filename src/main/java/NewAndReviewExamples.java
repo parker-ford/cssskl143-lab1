@@ -48,7 +48,7 @@ public class NewAndReviewExamples {
 					
 			case 6: 	Rectangle watchMe = new Rectangle(1,1,1,1);
 					System.out.println("watchMe's X,Y: " + watchMe.getXY());
-					ByReferenceExample(watchMe);
+					byReferenceExample(watchMe);
 					System.out.println("watchMe's X,Y: " + watchMe.getXY());
 					break;
 					
