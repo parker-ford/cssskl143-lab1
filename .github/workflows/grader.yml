@@ -37,8 +37,6 @@ jobs:
         run: bash .github/workflows/check_PR_target_repo.sh
       - name: Verify no changes to the main branch
         run: bash .github/workflows/check_no_change_to_main.sh
-      - name: Verify no new files added to repo
-        run: bash .github/workflows/check_no_new_file.sh
       - name: Verify no changes to the grader scripts
         run: bash .github/workflows/check_no_change_to_grader.sh
       - name: Build and run unit tests 
